@@ -6,7 +6,15 @@
   justify-content: space-between;
 }
 
+.nav-item {
+  width: 25%;
+}
+
 .clean-block.clean-hero p {
   color: black;
+}
+
+.clean-block.clean-hero .text {
+  max-width: 90%;
 }
 
