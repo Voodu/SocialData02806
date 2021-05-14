@@ -131,7 +131,41 @@
                             </div>
                         </div>
                         <div class="tab-pane" role="tabpanel" id="tab-3">
-                            <p><br>Nullam sagittis sapien at scelerisque imperdiet. Donec ligula nulla, viverra semper feugiat non, sodales non erat. Phasellus pretium, enim nec malesuada rhoncus, est arcu volutpat elit, quis euismod leo ante sed lectus. Ut eget ullamcorper risus. Vivamus mollis leo metus, vel dictum nibh tempus a. Nulla eget eros sapien. In ex elit, suscipit vitae urna id, porttitor convallis libero. Phasellus enim ante, tempus vitae velit vel, tincidunt dignissim magna. Pellentesque ut lorem auctor, tristique justo nec, tincidunt lacus. Ut nibh nisi, iaculis a aliquam non, semper vel est. Quisque eget sodales erat. Phasellus ac eros vitae tortor tempus tristique eu consequat odio.<br><br></p>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>How would Melbourne look like without COVID-19?<br></h2>
+                                        <h3>The effects of COVID-19&nbsp;</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Melbourne is affected by global pandemic just like any other place in world, and it can definitely be seen in the number of pedestrians. The following figure shows how new COVID-19 cases have affected the number ofpedestrians<br><img src="assets/img/Lasse_covid.png" style="width: 990px;padding: 0px;margin: 0px;"><br></p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 style="padding: 0px;margin-top: 10px;">Predicting a world without the COVID-19 using weather data<br></h3>
+                                                <p>The pandemic sucks! But how would the world look like without the Pandemic? We can use try to predict how the number of pedestrians would have looked like withoutany lockdowns or social distancing. <br></p>
+                                                <p>There are some clear patterns, which is also described in the section “Pedestrians”. The data contains more than 3.2 million observations, which is plenty of data to start doing some Machine Learning!<br></p>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <p>By including data about the weather from the Australian Bureau of Metrology, from the past 10 years, we can potentially increase the accuracy of our predictions. The weather data includes information about rainfall, temperature, and the solar exposure. The following plot shows a clear indication of some seasonal patterns, that will be great for improving our model.<br></p><img src="assets/img/Lasse_weather.png" style="width: 990px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <h3>A world without COVID-19</h3>
+                                        <p>We choose to use random forest regression, which is an ensemble method of decision trees. By splitting our data into a test set and a validation set, we could estimate the error of the model. Our predicted error is MSE=194 with an accuracy of 0.94 R^2.<br></p><img src="assets/img/Lasse_prediction1.png" style="width: 990px;">
+                                        <p>We can also investigate how the model estimate the number of pedestrians at a specific<br>location. The following plots shows that our predictions follow the same locational patterns as the real observations, but with a much lower amount!<br></p><img src="assets/img/Lasse_prediction2.png" style="width: 990px;">
+                                        <p style="margin-top: 50px;"><strong>Hopefully, our predictions become a reality soon!</strong><br></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-pane text-left" role="tabpanel" id="tab-4">
                             <div class="container">
@@ -163,10 +197,9 @@
                                                 </ul>
                                             </li>
                                             <li>Lasse Pelle Skytte Hansen<ul>
-                                                    <li>Item 1</li>
-                                                    <li>Item 2</li>
-                                                    <li>Item 3</li>
-                                                    <li>Item 4</li>
+                                                    <li>Predicting the number of pedestrians without COVID-19<br></li>
+                                                    <li>Pitching and presenting the video<br></li>
+                                                    <li>Searching for the datasets<br></li>
                                                 </ul>
                                             </li>
                                         </ul>
